@@ -147,5 +147,4 @@ Cypress.Commands.add('Checkout', () => {
   homePage.getPassword().type(Password)
   homePage.getSignInBtn().click()
   cy.wait(7000)
-
 })
