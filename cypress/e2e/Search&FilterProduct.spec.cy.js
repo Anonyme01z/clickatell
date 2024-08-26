@@ -28,10 +28,7 @@ describe('Clickatell', {
     cy.searchWithFiltersVerifyResults();
   });
 
-  after(() => {
-    homePage.homePage().click();
-  });
-  
+ 
 });
 
 
